@@ -29,7 +29,7 @@ include(GrPybind)
 ########################################################################
 
 list(APPEND distance_python_files
-    python_bindings.cc)
+    distance_access_code_tag_ff_python.cc python_bindings.cc)
 
 GR_PYBIND_MAKE_OOT(distance
    ../../..

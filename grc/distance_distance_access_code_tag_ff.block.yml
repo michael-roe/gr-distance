@@ -1,0 +1,28 @@
+id: distance_distance_access_code_tag_ff
+label: Distance Access Code Tag
+category: '[Distance]'
+templates:
+  imports: import distance
+  make: distance.distance_access_code_tag_ff(${symbols}, ${bps}, ${distance}, ${code})
+parameters:
+- id: symbols
+  label: Symbols
+  dtype: int
+- id: bps
+  label: Bits per Symbol
+  dtype: int
+- id: distance
+  label: Distance
+  dtype: float
+- id: code
+  label: Code
+  dtype: int
+inputs:
+- label: in
+  domain: stream
+  dtype: float
+outputs:
+- label: out
+  domain: stream
+  dtype: float
+file_format: 1

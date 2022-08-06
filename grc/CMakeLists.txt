@@ -7,5 +7,5 @@
 #
 
 install(FILES
-    DESTINATION share/gnuradio/grc/blocks
+    distance_distance_access_code_tag_ff.block.yml DESTINATION share/gnuradio/grc/blocks
 )

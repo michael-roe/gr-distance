@@ -11,5 +11,5 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/gnuradio/distance
+    distance_access_code_tag_ff.h DESTINATION include/gnuradio/distance
 )

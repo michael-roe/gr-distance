@@ -12,6 +12,7 @@
 include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND distance_sources
+    distance_access_code_tag_ff_impl.cc
 )
 
 set(distance_sources "${distance_sources}" PARENT_SCOPE)
