@@ -19,6 +19,8 @@ private:
   int d_bps;
   float d_distance;
   float d_code[64];
+  unsigned long long d_offset;
+  pmt::pmt_t d_key;
 
 public:
   distance_access_code_tag_ff_impl(int symbols, int bps, float distance,
