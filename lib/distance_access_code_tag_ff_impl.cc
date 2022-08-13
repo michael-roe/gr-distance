@@ -100,7 +100,7 @@ int distance_access_code_tag_ff_impl::work(
     }
     if (distance2 <= d_distance*d_distance)
     {
-      add_item_tag(0, d_offset + i, d_key, pmt::from_float(sqrtf(distance2)));
+      add_item_tag(0, d_offset + i + d_symbols, d_key, pmt::from_float(sqrtf(distance2)));
     }
   }
 
